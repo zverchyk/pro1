@@ -1,4 +1,7 @@
 
+
+
+////////Menu Burger
 const hamburger = document.querySelector(".header__hamburger");
 const menu = document.querySelector(".header__burger-menu");
 const whole = document.querySelector("body");
@@ -14,6 +17,7 @@ document.querySelectorAll(".header__humburger__bar").forEach(n => n.addEventList
 hamburger.classList.remove("active");
 menu.classList.remove("active");
 }))
+
 /////Cart
 let cartIcon =document.querySelector('#cart-icon')
 let cart =document.querySelector('.cart')
@@ -147,4 +151,3 @@ function updatetotal() {
         document.getElementsByClassName('total-price')[0].innerText = '$' + total;
     
 }
-

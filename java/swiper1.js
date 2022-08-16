@@ -24,8 +24,8 @@ new Swiper('.image-slider',{
     centeredSlides: true,
     loop: true,
     autoplay: {
-        delay: 50000,
-        disaleOnInteraction: false,
+        delay: 5000,
+        disaleOnInteraction: true,
     },
     speed: 800,
     slidesPerView: 'auto',

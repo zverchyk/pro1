@@ -1,5 +1,9 @@
 body::-webkit-scrollbar {
-    width: 0.7vw;               /* width of the entire scrollbar */
+  width: 0.6vw;
+  &:hover{
+    width: 0.7vw; 
+  }
+                 /* width of the entire scrollbar */
   }
 body::-webkit-scrollbar-track {
     background: rgb(226, 181, 97);        /* color of the tracking area */
